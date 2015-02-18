@@ -1,0 +1,188 @@
+body
+{
+	font-size:16px;
+
+}
+header
+{
+	margin: 0;
+	padding: 0;
+	height:80px;
+	position: fixed;
+	top: 0;
+	background: white;
+	width: 100%;
+}
+header img 
+{
+	display: inline-block;
+	height: 85%;
+	position: relative;
+	top:50%;
+	transform:translateY(-50%);
+	max-width: 49%;
+}
+header nav
+{
+	display: inline-block;
+	float:right;
+	height: 100%;
+	position: relative;
+	top:50%;
+	transform:translateY(-50%);
+	max-width: 49%;
+}
+header ul 
+{
+	list-style: none;
+}
+header ul li
+{
+	display: inline-block;
+}
+#fondo 
+{
+	background-color: lightblue;
+	margin-top: 80px;
+}
+#shop
+{
+	background-color: lightblue;
+	margin: 0;
+	padding:0;
+	height:80px;
+}
+#shop h2, #shop img 
+{
+	display: inline-block;
+	padding:10px 100px;
+	max-height: 20%;
+	max-width: 20%;
+
+}
+#shop img 
+{
+	height:50%;
+	float:right;
+	margin-top: 24px;
+}
+ #productos 
+{
+	display: inline-block;
+	max-width: 80%;
+	text-align: center;
+}
+#productos article
+{
+	display: inline-block;
+	max-width: 49%;
+}
+#productos article figure img
+{
+	max-width: 85%;
+}
+#aside
+{
+	display: inline-block;
+	max-width: 19%;
+	vertical-align: top;
+	text-align: center;
+	padding:5% 0;
+}
+.centrado
+{
+	max-width: 80%;
+	margin: 0 auto;
+}
+#aside div figure
+{
+	margin: 0 auto;
+}
+#productos h2 
+{
+	text-align: left;
+}
+#aside div figure img 
+{
+	display: inline-block;
+	margin: 0 auto;
+	max-width: 25%;
+}
+#aside div img 
+{
+	max-width: 30%;
+}
+#aside div figure figcaption
+{
+	max-width: 100%;	
+	text-align: left;
+	font-size: .8em;
+}
+#aside div figure p
+{
+	max-width:100%;
+	text-align: left;
+}
+#arreglar
+{
+	display: inline-block;
+}
+#aside .caltura
+{
+	padding:10% 0;
+}
+footer
+{
+	background-color: black;
+	color:white;
+	font-size: .9em;
+}
+footer .foot 
+{
+	max-width: 80%;
+	margin: 0 auto;
+	padding: 1% 0;
+	text-align: center;
+}
+footer .foot div
+{
+	display: inline-block;
+	width:24%;
+	text-align: center;
+	vertical-align: top;
+}
+footer div div ul
+{
+	list-style: none;
+	text-align: left;
+}
+footer div div ul li
+{
+	display: inline-block;
+	cursor:pointer;
+	background: gray;
+	margin-top: 5px;
+	transition: all .5s;
+	padding: 5px;
+	border-radius: 10%;
+}
+footer div div ul li:hover
+{
+	background-color: white;
+	color:yellow;
+	transform: rotate(17deg);
+}
+#contactos p 
+{
+	font-size: .7em;
+}
+#tiutlo
+{
+	max-width: 80%;
+}
+@media (max-width: 500px) {
+
+	body{
+		background-color: red;
+	}
+}
